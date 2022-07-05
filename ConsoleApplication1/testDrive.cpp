@@ -11,7 +11,7 @@ public:
 
 int Car::size(int, int)
 {
-    return 33;
+    return 44;
 }
 
 
@@ -21,14 +21,14 @@ double addition(double a, double b);
 int main()
 {
 
-    std::cout << "Hello World! 3 \n";
+    std::cout << "Hello World! 4 \n";
 
     double x = addition(1.3, 3.1);
     std::cout <<"the addition results in "<< x;
 
 
     Car volvo;
-    int d = volvo.size(1, 2);
+    int d = volvo.size(1, 200);
     std::cout << "the car results in " << d;
 
     return 0;
